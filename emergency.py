@@ -57,9 +57,9 @@ class EmergencyApp:
         
         name, number = self.contacts[choice]
         
-        print(f"\n📞 Calling {name}...")
+        print(f"\n📞   Calling {name}...")
         
-        print(f"\n ☎️ Dialing {number}...")
+        print(f"\n ☎️  Dialing {number}...")
         
         print("⏳ Please stay calm. Help is on the way.") 
         
@@ -89,7 +89,7 @@ class EmergencyApp:
             
             self.show_menu()
             
-            choice = input("-> Select an Option: ").strip()
+            choice = input(" Select an Option: ").strip()
             
             self.handle_choice(choice)
             
